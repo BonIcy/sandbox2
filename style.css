@@ -1,3 +1,20 @@
+@font-face {
+    font-family:"font1";
+    src: url(./font/fontawesome-webfont.woff);
+}
+@font-face {
+    font-family:"font2";
+    src: url(./font/fontawesome-webfont.woff2);
+}
+@font-face {
+    font-family:"font3";
+    src: url(./font/opensans-regular-webfont.woff);
+}
+@font-face {
+    font-family:"font4";
+    src: url(./font/opensans-regular-webfont.woff2);
+}
+
 .pagina1{
     display: grid;
     background-image: url(./img/fondo-bienvenido-grande.jpg);
@@ -10,6 +27,7 @@
 }
 .sub1{
     display: grid;
+    font-weight: bolder;
     justify-content:center;
     padding: 21px;
     font-size: 27px;
@@ -81,17 +99,15 @@
     justify-content: center;
     color:white;
     font-size: 17px;
-    height:0px;
-
     
 }
 .ms1{
     color:white;
-    font-size: 67px;
-    
+    font-size: 57px;
 }
 #contact{
     display: grid;
+
     justify-content: center;
     justify-self: center;
     background-color: #f05f40;
@@ -107,13 +123,14 @@
     
 }
 .item3 {
-    height: 650px;
+    height: 600px;
     background-color: #f05f40;
+
    
 }
 #img1{
     display: grid;
-    height: 320px;
+    height: 230px;
     width: auto;
     display: block;
     margin: auto;
@@ -132,17 +149,45 @@
     padding: 28px;
     margin: auto;
     width: 1000px;
-    font-size: 19.5px;
     text-align: center;
+    font-size: 19.5px;
 }
 #moreinf{
     display: grid;
-    font-size: 15px;
-    border: transparent;
-    width: 200px;
-    height: 35px;
-    padding: 5px;
-    margin: 25px;
-    color:black;
-    
+    align-items: center;
+     
 }
+.item3 div{
+    display: flex;
+    justify-content: center;
+}
+#moreinf{
+    display: flex;
+    background-color: white;
+    font-size: 17px;
+    width: 240px;
+    height: 65px;
+    padding: 5px;
+    margin: 15px;
+    text-align: justify;
+}
+#aea {
+    display: grid;
+    color: white;
+}
+.item4{
+    display: grid;
+    background-color: white;
+    height: 450px;
+}
+.p4{
+    display: grid;
+    justify-content: center;
+    padding: 50px;
+    font-size: 35px;
+}
+.file{
+    display: grid;
+    font-size: 50px;
+}
+

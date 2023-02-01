@@ -7,8 +7,12 @@
     grid-template-columns: 15px 15px 15px 15px;
     
 }
-#item2 {
+.item2 {
     display: grid;
-    grid-template-rows:  20px 105px;
+    grid-template-rows: 10px 105px;
 }
-
+.file {
+    display: grid;
+    justify-content: center; 
+    grid-template-columns: 250px 250px 250px;
+}
