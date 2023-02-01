@@ -1,0 +1,14 @@
+.item1 {
+    display: grid;
+    grid-template-columns: 900px 100px;
+}
+.sub2 {
+    display: grid;
+    grid-template-columns: 15px 15px 15px 15px;
+    
+}
+#item2 {
+    display: grid;
+    grid-template-rows:  20px 105px;
+}
+
