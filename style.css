@@ -24,12 +24,14 @@
 .item1{
     background-color: rgba(0, 0, 0, 0.548);
     height: 85px;
+    width: 1900px;
 }
 .sub1{
     display: grid;
     font-weight: bolder;
     justify-content:center;
     padding: 21px;
+    width: 1000px;
     font-size: 27px;
     color: white;
 
@@ -37,7 +39,7 @@
 .sub2 {
     display: grid;
     justify-content: space-between;
-    width: 375px;
+    width: 475px;
     
 
 }
@@ -120,14 +122,10 @@
 }
 .pagina2{
     display:grid;
-    height: 968px;
     
 }
 .item3 {
-    height: 615px;
     background-color: #f05f40;
-
-   
 }
 #img1{
     display: grid;
@@ -176,25 +174,35 @@
     display: grid;
     color: white;
 }
+
 .item4{
     display: grid;
     justify-content: space-between;
     background-color: white;
-    height: 600px;
-    width: 1000px;
+    height: 450px;
+    
 }
 .p4{
     display: grid;
     justify-content: center;
-    padding: 60px;
+    padding: 40px;
     font-size: 35px;
+    margin-bottom: -134px;
 }
 .file{
     display: grid;
     justify-content: space-between;
     font-size: 100px;
     color:#f05f40;
-
+    height: 10px;
+}
+.textos{
+    display: grid;
+    justify-content: space-around 1000px;
+    grid-gap: 150px;
+ 
+    
+    
 }
 
 .t1{
@@ -254,3 +262,16 @@
     text-align: center;
     
 }
+.pagina3{
+    display: grid;
+    background-color: #424141;
+}
+.tfinal{
+    display: grid;
+    font-size: 35px;
+    color: white;
+}
+.imagenes{
+    display: grid;
+    grid-gap: 40px;   
+}    

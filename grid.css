@@ -1,10 +1,11 @@
 .item1 {
     display: grid;
-    grid-template-columns: 900px 100px;
+    grid-template-columns: 920px 100px;
 }
 .sub2 {
     display: grid;
-    grid-template-columns: 15px 15px 15px 15px;
+    justify-content: space-around;
+    grid-template-columns: 15px 5px 5px 5px;
     
 }
 .item2 {
@@ -38,4 +39,13 @@
 .textos{
     display: grid;
     grid-template-columns: 330px 330px 330px;
+}
+.pagina3{
+    display: grid;
+    justify-items: center;
+}
+.imagenes{
+    display: grid;
+    grid-template-columns: 330px 330px 330px;
+    grid-template-rows: 270px 300px;
 }
