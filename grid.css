@@ -11,8 +11,31 @@
     display: grid;
     grid-template-rows: 10px 105px;
 }
+/* .item4{
+    display: grid;
+    text-align: center;
+     justify-self: center; 
+    justify-content: space-around;
+  
+}
 .file {
     display: grid;
-    justify-content: center; 
-    grid-template-columns: 250px 250px 250px;
+    text-align: center;
+    align-self: center;
+    grid-template-columns: 1600px 0px 50px;
+}
+.textos {
+    display: grid;
+    text-align: center;
+    grid-template-columns: 290px 1010px 290px;
+    
+      */
+
+.item4{
+    display:grid;
+   justify-self: center;
+}
+.textos{
+    display: grid;
+    grid-template-columns: 330px 330px 330px;
 }

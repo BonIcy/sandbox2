@@ -120,10 +120,11 @@
 }
 .pagina2{
     display:grid;
+    height: 968px;
     
 }
 .item3 {
-    height: 600px;
+    height: 615px;
     background-color: #f05f40;
 
    
@@ -177,17 +178,79 @@
 }
 .item4{
     display: grid;
+    justify-content: space-between;
     background-color: white;
-    height: 450px;
+    height: 600px;
+    width: 1000px;
 }
 .p4{
     display: grid;
     justify-content: center;
-    padding: 50px;
+    padding: 60px;
     font-size: 35px;
 }
 .file{
     display: grid;
-    font-size: 50px;
+    justify-content: space-between;
+    font-size: 100px;
+    color:#f05f40;
+
 }
 
+.t1{
+    display: grid;
+    font-size: 20px;
+    font-weight: bolder;
+    color: black;
+}
+.lt1{
+    display: grid;
+    font-weight: normal;
+    font-size: 21px;
+    padding: 10px;
+    text-align: center;
+}
+.t2{
+    display: grid;
+    font-size: 20px;
+    font-weight: bolder;
+    color: black;
+    
+}
+.lt2{
+    display: grid;
+    font-weight: normal;
+    font-size: 21px;
+    
+    padding: 10px;
+    text-align: center;
+}
+.t3{
+    display: grid;
+    font-size: 20px;
+    font-weight: bolder;
+    color: black;
+    
+}
+.lt3{
+    display: grid;
+    font-weight: normal;
+    font-size: 21px;
+    padding: 10px;
+    text-align: center;
+}
+.c1{
+    display: grid;
+    text-align: center;
+
+}
+.c2{
+    display: grid;
+    text-align: center;
+    
+}
+.c3{
+    display: grid;
+    text-align: center;
+    
+}
