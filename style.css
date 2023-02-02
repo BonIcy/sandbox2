@@ -18,8 +18,8 @@
 .pagina1{
     display: grid;
     background-image: url(./img/fondo-bienvenido-grande.jpg);
-    background-size: contain;
-    height: 968px;
+    background-size: cover;
+    height: 953px;
 }
 .item1{
     background-color: rgba(0, 0, 0, 0.548);
@@ -105,12 +105,11 @@
 }
 .ms1{
     color:white;
-    font-size: 57px;
+    font-size: 40px;
+    padding: 25px;
 }
 #contact{
     display: grid;
-
-    justify-content: center;
     justify-self: center;
     background-color: #f05f40;
     border-color: transparent;
@@ -167,7 +166,7 @@
     width: 240px;
     height: 65px;
     padding: 5px;
-    margin: 15px;
+    margin: 75px;
     text-align: justify;
 }
 #aea {
@@ -179,7 +178,7 @@
     display: grid;
     justify-content: space-between;
     background-color: white;
-    height: 450px;
+    height: 550px;
     
 }
 .p4{
@@ -270,8 +269,13 @@
     display: grid;
     font-size: 35px;
     color: white;
+    padding: 50px;
 }
 .imagenes{
     display: grid;
     grid-gap: 40px;   
 }    
+#ff1:hover::beefore{
+    height: 0%;
+    
+}
