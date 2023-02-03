@@ -2,15 +2,18 @@
     display: grid;
     grid-template-columns: 920px 100px;
 }
-.sub2 {
+/* .sub2 {
     display: grid;
     justify-content: space-around;
     grid-template-columns: 15px 5px 5px 5px;
     
 }
+ */
+
+
 .item2 {
     display: grid;
-    grid-template-rows: 10px 105px;
+    grid-template-rows: 10px 115px;
 }
 /* .item4{
     display: grid;
@@ -49,3 +52,4 @@
     grid-template-columns: 330px 330px 330px;
     grid-template-rows: 270px 300px;
 }
+
